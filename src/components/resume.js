@@ -1,16 +1,12 @@
 export const skills = [
+  "Solidity / Ethereum",
+  "Web3.js / MetaMask",
   "React",
   "JavaScript",
-  "Solidity",
-  "Web3.js",
   "Truffle",
-  "MetaMask",
-  "Node",
-  "Git",
+  "Git / Node / NPM",
   "HTML",
-  "CSS",
-  "Tailwind CSS",
-  "Material UI",
+  "CSS / Tailwind",
 ];
 
 export const projects = [
@@ -39,20 +35,3 @@ export const projects = [
     link: "https://evernote-clone-66195.web.app/login",
   },
 ];
-
-// export const testimonials = [
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/1.jpg",
-//     name: "Jesse Hicks",
-//     company: "Zoozle",
-//   },
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/94.jpg",
-//     name: "Ruben Alvarez",
-//     company: "Dooble.io",
-//   },
-// ];
