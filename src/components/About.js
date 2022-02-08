@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from '@mui/material'
 
 export default function About() {
   return (
@@ -15,6 +16,18 @@ export default function About() {
             Laborum, voluptas natus?
           </p>
           <div className="flex justify-center">
+            {/* <Button 
+              variant='contained'
+              href='#contact'
+              color='primary'>
+              MUI Contact
+            </Button>
+            <Button 
+              variant='outlined'
+              href='#projects'
+              color='secondary'>
+              See My Past Work
+            </Button> */}
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">

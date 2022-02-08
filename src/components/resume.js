@@ -5,8 +5,8 @@ export const skills = [
   "JavaScript",
   "Truffle",
   "Git / Node / NPM",
-  "HTML",
-  "CSS / Tailwind",
+  "Tailwind CSS",
+  "Material UI"
 ];
 
 export const projects = [
