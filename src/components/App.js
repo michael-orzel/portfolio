@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="bg-gray-900 text-gray-400 body-font">
       <Navbar />
       <Content />
       <Footer />

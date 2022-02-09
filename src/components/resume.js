@@ -15,7 +15,7 @@ export const projects = [
     subtitle: "Solidity | React | Redux",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: "./img/project-1.gif",
     link: "https://shovel-token.surge.sh/",
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     subtitle: "React Hooks | Context API | Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./user-login.png",
+    image: "./img/user-login.png",
     link: "https://fir-login-4ab71.web.app/signin",
   },
   {
@@ -31,7 +31,7 @@ export const projects = [
     subtitle: "React | Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./note-app.png",
+    image: "./img/note-app.png",
     link: "https://evernote-clone-66195.web.app/login",
   },
 ];
