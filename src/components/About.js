@@ -1,10 +1,32 @@
 import React from 'react'
-import { Button } from '@mui/material'
+import { ChipIcon } from '@heroicons/react/solid'
 
 export default function About() {
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+      <div className='container mx-auto flex flex-col justify-center items-center px-10 py-10'>
+        <ChipIcon className="inline-block w-10 mb-4" />
+        <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl">
+          About
+        </h1>
+        <div className="flex flex-col justify-center items-center lg:flex-row">
+          <p className="text-base leading-relaxed mx-auto lg:w-1/2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
+            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
+            possimus est. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
+            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
+            possimus est.
+          </p>
+          <div className='mx-auto pt-6 lg:pt-0'>
+            <img
+              className="object-cover object-center rounded-full"
+              alt="Michael Orzel"
+              src="./img/michael.png" />
+          </div>
+        </div>
+      </div>
+      
+      {/* <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Michael.
@@ -16,18 +38,6 @@ export default function About() {
             Laborum, voluptas natus?
           </p>
           <div className="flex justify-center">
-            {/* <Button 
-              variant='contained'
-              href='#contact'
-              color='primary'>
-              MUI Contact
-            </Button>
-            <Button 
-              variant='outlined'
-              href='#projects'
-              color='secondary'>
-              See My Past Work
-            </Button> */}
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -47,7 +57,7 @@ export default function About() {
             src="./img/michael.png"
           />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

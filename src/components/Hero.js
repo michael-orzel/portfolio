@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <header 
       id='hero'>
-      <div className='bg-gray-900 flex flex-col justify-center items-center w-screen h-screen bg-center bg-fixed bg-cover bg-no-repeat'
+      <div className='flex flex-col justify-center items-center w-screen h-screen bg-center bg-fixed bg-cover bg-no-repeat'
         style={heroStyles}>
         <div className='flex flex-row justify-center items-center w-3/4 lg:1/2'>
           <h1 className='title-font text-white font-medium text-3xl mb-6 md:text-4xl'>
