@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { MailIcon } from '@heroicons/react/solid'
 
 export default function Contact() {
   const [formName, setFormName] = React.useState("")
@@ -27,15 +28,16 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <h2>CONTACT</h2>
-        </div>
+      <div className='container mx-auto flex flex-col justify-center items-center px-10 py-14 2xl:px-20'>
+        <MailIcon className="inline-block w-10 mb-4" />
+        <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl">
+          Contact
+        </h1>
         <form onSubmit={(e) => handleFormSubmit(e)}
           netlify
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          className="flex flex-col justify-center align-center w-full sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
+          <h2 className="text-white text-3xl mb-1 font-medium title-font sm:text-4xl">
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
