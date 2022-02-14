@@ -15,12 +15,12 @@ export default function Projects() {
           facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
           fuga dolore.
         </p>
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center flex-wrap xl:flex-row'>
           { projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="w-100 relative py-4 sm:w-10/12 md:w-8/12 xl:w-8/12 2x:w-8/12"
+              className="w-100 relative py-4 sm:w-10/12 md:w-8/12 xl:w-8/12 2x:w-6/12 xl:basis-4/12"
             >
               <div className='relative z-1'>
                 <img
@@ -28,7 +28,7 @@ export default function Projects() {
                   alt="gallery"
                   className="relative z-2 w-full h-full py-0 rounded-md object-cover object-center"
                 />
-                <div className="absolute z-3 top-0 bg-gray-900 w-full h-full px-8 py-10 flex flex-col justify-center items-start border-4 border-gray-800 opacity-70 hover:opacity-60">
+                <div className="absolute z-3 top-0 bg-gray-900 w-full h-full px-8 py-10 flex flex-col justify-center items-start border-4 border-gray-800 opacity-90 hover:opacity-80 hover:border-gray-900">
                   <h1 className="title-font text-lg font-medium text-white">
                     {project.title}
                   </h1>
