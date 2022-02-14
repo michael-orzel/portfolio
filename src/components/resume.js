@@ -11,16 +11,16 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Decentralized Exchange: Order Book Model",
-    subtitle: "Solidity | React | Redux",
+    title: "Order Book Crypto Exchange",
+    subtitle: "Solidity | Truffle | React | Redux | Infura | Surge | Bootstrap",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./img/project-1.gif",
+    image: "./img/user-login.png",
     link: "https://shovel-token.surge.sh/",
   },
   {
     title: "User Login System",
-    subtitle: "React Hooks | Context API | Firebase",
+    subtitle: "React Hooks | Context API | Firebase | Material UI",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./img/user-login.png",
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: "Note Taking App",
-    subtitle: "React | Firebase",
+    subtitle: "React | Firebase | Material UI",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./img/note-app.png",
