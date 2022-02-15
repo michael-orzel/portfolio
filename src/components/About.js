@@ -10,7 +10,7 @@ export default function About() {
           About
         </h1>
         <div className="flex flex-col justify-center items-center lg:flex-row xl:mx-20">
-          <p className="text-base leading-relaxed mx-auto lg:w-1/2 xl:w-5/12">
+          <p className="mx-auto text-center text-base leading-relaxed lg:w-1/2 xl:w-5/12">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
