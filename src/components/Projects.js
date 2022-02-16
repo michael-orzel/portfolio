@@ -18,8 +18,8 @@ export default function Projects() {
         <div className='flex flex-col justify-center items-center flex-wrap xl:flex-row xl:w-9/12 2xl:w-8/12'>
           { projects.map((project) => (
             <a
-              href={project.link}
               key={project.image}
+              href={project.link}
               className="basis-1/2 relative py-4 sm:w-10/12 md:w-8/12 xl:w-8/12 xl:px-4 2xl:w-8/12"
             >
               <div className='relative z-1 w-full'>

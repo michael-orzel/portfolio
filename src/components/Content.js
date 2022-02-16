@@ -6,7 +6,7 @@ import Projects from './Projects'
 import Education from './Education'
 import Contact from './Contact'
 
-export default function Main() {
+export default function Content() {
   return (
     <div>
       <Hero />

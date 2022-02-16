@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Main from './Main'
+import Content from './Content'
 import Footer from './Footer'
 
 export default function App() {
   return (
     <main className="bg-gray-900 text-gray-400 body-font">
       <Navbar />
-      <Main />
+      <Content />
       <Footer />
     </main>
   );
