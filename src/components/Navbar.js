@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
+import { navigation } from './navData'
 import { 
   MenuIcon, HomeIcon, IdentificationIcon,
-  CodeIcon, AcademicCapIcon, MailIcon 
+  ChipIcon, CodeIcon, MailIcon 
 } from '@heroicons/react/solid'
 
 export default function Navbar() {
@@ -10,58 +11,41 @@ export default function Navbar() {
   const showMobileNav = () => setMobileNav(!mobileNav)
   
   return (
-    <div className="bg-gray-800 relative bottom-0 z-10">
-      <div className='container mx-auto '>
-        <nav className="text-base">
-          <ul className='flex flex-row justify-between align-center'>
-            <li className='pl-5'>
-              <a href="" className="px-10 hover:text-white">
-                <MenuIcon></MenuIcon>
+    <div className=" relative">
+      {/* <div className='container mx-auto text-base bottom-0 z-10'>
+          <ul className='flex flex-row justify-around align-center'>
+            <li className='pl-0'>
+              <a href="" className="px-9 hover:text-white">
+                <MenuIcon />
               </a>
             </li>
-            <div className='flex flex-row justify-center align-center'>
-              <li className='px-4'>
-                <a href="#hero" className="px-10 hover:text-white">
-                  <HomeIcon></HomeIcon>
+              <li className='px-0'>
+                <a href="#projects" className="px-9 hover:text-white">
+                  <CodeIcon />
                 </a>
               </li>
-              <li className='px-4'>
-                <a href="#projects" className="px-10 hover:text-white">
-                  <CodeIcon></CodeIcon>
+              <li className='pr-0'>
+                <a href="#contact" className="px-9 hover:text-white">
+                  <MailIcon />
                 </a>
               </li>
-            </div>
-            <li className='pr-5'>
-              <a href="#contact" className="px-10 hover:text-white">
-                <MailIcon></MailIcon>
-              </a>
-            </li>
           </ul>
-        </nav>
-      </div>
-
-      <div></div>
-
-      {/* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <div className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Michael <span className="text-gray-400">Orzel</span>
-          </a>
-        </div>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex justify-end flex-wrap items-center text-base">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Projects
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
-            Skills
-          </a>
-        </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 hover:bg-gray-700 focus:outline-none rounded text-base mt-4 md:mt-0">
-          Contact
-        </a>
       </div> */}
+
+      <nav className='bg-gray-800 absolute z-99 top-0 left-0 w-80 h-screen flex flex-col justify-center items-center'>
+        <ul className='flex flex-col justify-center items-center'>
+          { navigation.map((section) => {
+            return (
+              <li key={section.name} className='w-28 flex '>
+                <a href={section.link} className='flex flex-row justify-center align-center px-0 hover:text-white'>
+                  {section.icon}
+                  {section.name}
+                </a>
+              </li>
+            );
+          }) }
+        </ul>
+      </nav>
     </div>
   );
 }
@@ -69,3 +53,19 @@ export default function Navbar() {
 //flex justify-end flex-wrap items-center md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700
 
 //flex flex-row justify-center items-center flex-wrap p-0
+
+{/* <li className='px-0'>
+                <a href="#hero" className="px-9 hover:text-white">
+                  <HomeIcon></HomeIcon>
+                </a>
+              </li>
+              <li className='px-0'>
+                <a href="#about" className="px-9 hover:text-white">
+                  <IdentificationIcon></IdentificationIcon>
+                </a>
+              </li>
+              <li className='px-0'>
+                <a href="#skills" className="px-9 hover:text-white">
+                  <ChipIcon></ChipIcon>
+                </a>
+              </li> */}
