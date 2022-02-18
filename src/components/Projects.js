@@ -1,6 +1,7 @@
 import React from 'react'
-import { CodeIcon } from '@heroicons/react/solid'
+import BorderDivider from './BorderDivider'
 import { projects } from './resume'
+import { CodeIcon } from '@heroicons/react/solid'
 
 export default function Projects() {
   return (
@@ -42,6 +43,7 @@ export default function Projects() {
           )) }
         </div>
       </div>
+      <BorderDivider />
     </section>
   );
 }

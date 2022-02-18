@@ -1,4 +1,5 @@
 import React from 'react'
+import BorderDivider from './BorderDivider'
 import { IdentificationIcon } from '@heroicons/react/solid'
 
 export default function About() {
@@ -25,6 +26,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <BorderDivider />
     </section>
   );
 }

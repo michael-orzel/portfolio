@@ -3,7 +3,7 @@ import {
   ChipIcon, CodeIcon, MailIcon 
 } from '@heroicons/react/solid'
 
-export const navigation = [
+export const navData = [
   {
     name: "Top",
     link: "#hero",

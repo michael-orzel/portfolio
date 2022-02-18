@@ -1,42 +1,46 @@
 import React, { useState } from 'react'
-import { navigation } from './navData'
+import { navData } from './navData'
 import { 
   MenuIcon, HomeIcon, IdentificationIcon,
   ChipIcon, CodeIcon, MailIcon 
 } from '@heroicons/react/solid'
 
 export default function Navbar() {
-  const [mobileNav, setMobileNav] = useState(false)
+  const [navigation, setNavigation] = useState(false)
 
-  const showMobileNav = () => setMobileNav(!mobileNav)
+  const toggleNavigation = () => setNavigation(!navigation)
   
   return (
-    <div className=" relative">
-      {/* <div className='container mx-auto text-base bottom-0 z-10'>
-          <ul className='flex flex-row justify-around align-center'>
-            <li className='pl-0'>
-              <a href="" className="px-9 hover:text-white">
-                <MenuIcon />
+    <div>
+      <div className='fixed bottom-0 left-0 z-30 bg-gray-800 w-full xl:top-0 xl:bottom-auto'>
+        <ul className='flex flex-row justify-around align-center text-base'>
+          <li className='pl-0'>
+            <a href='#' className="px-8 hover:text-white">
+              <MenuIcon onClick={toggleNavigation} />
+            </a>
+          </li>
+            <li className='px-0'>
+              <a href="#projects" className="px-8 hover:text-white">
+                <CodeIcon />
               </a>
             </li>
-              <li className='px-0'>
-                <a href="#projects" className="px-9 hover:text-white">
-                  <CodeIcon />
-                </a>
-              </li>
-              <li className='pr-0'>
-                <a href="#contact" className="px-9 hover:text-white">
-                  <MailIcon />
-                </a>
-              </li>
-          </ul>
-      </div> */}
+            <li className='pr-0'>
+              <a href="#contact" className="px-8 hover:text-white">
+                <MailIcon />
+              </a>
+            </li>
+        </ul>
+      </div>
 
-      <nav className='bg-gray-800 absolute z-99 top-0 left-0 w-80 h-screen flex flex-col justify-center items-center'>
+      <nav 
+        className={navigation 
+          ? 'fixed z-50 top-0 left-0 bg-gray-900 w-80 h-screen flex flex-col justify-center items-center'
+          : 'hidden'}
+      >
         <ul className='flex flex-col justify-center items-center'>
-          { navigation.map((section) => {
+          { navData.map((section) => {
             return (
-              <li key={section.name} className='w-28 flex '>
+              <li key={section.name} className='w-32'>
                 <a href={section.link} className='flex flex-row justify-center align-center px-0 hover:text-white'>
                   {section.icon}
                   {section.name}
@@ -50,9 +54,6 @@ export default function Navbar() {
   );
 }
 
-//flex justify-end flex-wrap items-center md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700
-
-//flex flex-row justify-center items-center flex-wrap p-0
 
 {/* <li className='px-0'>
                 <a href="#hero" className="px-9 hover:text-white">

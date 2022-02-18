@@ -1,6 +1,7 @@
 import React from 'react'
-import { BadgeCheckIcon, ChipIcon } from '@heroicons/react/solid'
+import BorderDivider from './BorderDivider'
 import { skills } from './resume'
+import { BadgeCheckIcon, ChipIcon } from '@heroicons/react/solid'
 
 export default function Skills() {
   return (
@@ -30,6 +31,7 @@ export default function Skills() {
           )) }
         </div>
       </div>
+      <BorderDivider />
     </section>
   );
 }
