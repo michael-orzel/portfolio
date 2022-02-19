@@ -29,7 +29,7 @@ export default function Projects() {
                   alt="gallery"
                   className="relative z-2 w-full h-full py-0 rounded-md object-cover object-center"
                 />
-                <div className="absolute z-3 top-0 bg-gray-900 w-full h-full px-8 py-10 flex flex-col justify-center items-start border-4 border-gray-800 opacity-90 hover:opacity-80 hover:border-gray-900">
+                <div className="absolute z-3 top-0 bg-gray-900 w-full h-full px-8 py-10 flex flex-col justify-center items-start border-4 border-gray-800 opacity-90 hover:opacity-80">
                   <h1 className="text-xl title-font font-medium text-white">
                     {project.title}
                   </h1>

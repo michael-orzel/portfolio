@@ -1,7 +1,7 @@
 import { 
   HomeIcon, IdentificationIcon,
   ChipIcon, CodeIcon, MailIcon 
-} from '@heroicons/react/solid'
+} from '@heroicons/react/outline'
 
 export const navData = [
   {

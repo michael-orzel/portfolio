@@ -1,10 +1,10 @@
 export const skills = [
-  "Solidity / Ethereum",
-  "Web3.js / MetaMask",
+  "Solidity",
+  "Truffle",
   "React",
   "JavaScript",
-  "Truffle",
-  "Git / Node / NPM",
+  "Web3.js",
+  "Git",
   "Tailwind CSS",
   "Material UI"
 ];
