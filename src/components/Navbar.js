@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className='fixed bottom-0 left-0 z-30 bg-gray-800 w-full h-20 flex flex-col justify-center align-center xl:top-0 xl:bottom-auto xl:flex-row xl:justify-around 2xl:justify-evenly'>
+      <div className='fixed bottom-0 left-0 z-30 bg-gray-800 w-full h-20 flex flex-col justify-center align-center opacity-100 xl:top-0 xl:bottom-auto xl:flex-row xl:justify-around 2xl:justify-evenly'>
         <a href="#hero" className="hidden px-4 py-1 rounded flex flex-row justify-center items-center hover:bg-gray-700 hover:text-white xl:inline-flex">
           <HomeIcon className='w-10' />
           <span className='text-xl pl-1'>Top</span>

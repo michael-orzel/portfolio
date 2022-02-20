@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <header id='hero'>
-      <div className='flex flex-col justify-center items-center w-full h-screen bg-center bg-fixed bg-cover bg-no-repeat'
+      <div className='w-full h-screen pb-16 flex flex-col justify-center items-center bg-center bg-fixed bg-cover bg-no-repeat sm:pb-18 lg:pb-20 xl:pb-0 xl:pt-20'
         style={heroStyles}
       >
         <div className='flex flex-row justify-center items-center w-3/4 lg:1/2'>
