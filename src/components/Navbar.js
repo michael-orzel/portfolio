@@ -10,16 +10,18 @@ export default function Navbar() {
 
   const toggleNavigation = () => setNavigation(!navigation)
 
+  const hideNavigation = () => setNavigation(false)
+
   return (
     <div>
-      <div className='fixed bottom-0 left-0 z-30 bg-gray-800 w-full h-20 flex flex-col justify-center align-center opacity-100 xl:top-0 xl:bottom-auto xl:flex-row xl:justify-around 2xl:justify-evenly'>
+      <div className='fixed bottom-0 left-0 z-30 bg-gray-800 w-full h-20 drop-shadow-2xl flex flex-col justify-center opacity-100 xl:top-0 xl:bottom-auto xl:flex-row xl:justify-around 2xl:justify-evenly'>
         <a href="#hero" className="hidden px-4 py-1 rounded flex flex-row justify-center items-center hover:bg-gray-700 hover:text-white xl:inline-flex">
           <HomeIcon className='w-10' />
           <span className='text-xl pl-1'>Top</span>
         </a>
-        <ul className='flex flex-row justify-around align-center text-base'>
+        <ul className='flex flex-row justify-around items-center text-base'>
           <li className='inline-flex pl-0 lg:hidden'>
-            <a href='#' className="px-4 py-1 flex flex-row justify-center items-center hover:text-white">
+            <a role='button' tabIndex='0' className="px-4 py-1 flex flex-row justify-center items-center hover:text-white">
               <MenuIcon className='w-10' onClick={toggleNavigation} />
             </a>
           </li>
@@ -60,24 +62,32 @@ export default function Navbar() {
         </a>
       </div>
 
-      <div className='hidden'></div>
+      <div 
+        className={navigation 
+          ? 'fixed w-full h-screen z-40 bg-gray-700 opacity-70'
+          : 'hidden'} 
+        onClick={hideNavigation}
+      />
 
       <nav
         className={navigation
           ? 'fixed z-50 top-0 left-0 bg-gray-900 w-80 h-screen flex flex-col justify-center items-center'
           : 'hidden'}
       >
-        <ul className='flex flex-col justify-center items-center'>
-          {navData.map((section) => {
+        <ul className='w-full h-full flex flex-col justify-center items-center'>
+          { navData.map((section) => {
             return (
-              <li key={section.name} className='w-32'>
-                <a href={section.link} className='flex flex-row justify-center align-center px-0 hover:text-white'>
-                  {section.icon}
-                  {section.name}
+              <li key={section.name} className='inline-flex w-7/12'>
+                <a href={section.link}
+                  onClick={hideNavigation} 
+                  className='flex flex-row justify-start items-center min-w-full pl-4 py-4 rounded hover:bg-gray-700 hover:text-white'
+                >
+                  <span className='w-12'>{section.icon}</span>
+                  <span className='text-2xl pl-2'>{section.name}</span>
                 </a>
               </li>
             );
-          })}
+          }) }
         </ul>
       </nav>
     </div>
