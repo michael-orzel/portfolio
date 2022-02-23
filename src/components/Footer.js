@@ -1,40 +1,33 @@
 import React from 'react'
-import {
-   MailIcon
-} from '@heroicons/react/outline'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 py-9 pb-32 flex flex-col justify-center items-center bottom-0 xl:pb-14">
+    <footer className="bg-gray-800 pt-7 pb-28 flex flex-col justify-center items-center bottom-0 lg:pt-9 lg:pb-32 xl:pb-12">
       <ul className="py-2 flex flex-row justify-center items-center">
         <li className='inline-flex px-0'>
-          <a href="#contact" className="px-4 py-1 rounded flex flex-row justify-center items-center hover:bg-gray-700 hover:text-white">
-            <MailIcon className='w-10'/>
+          <a href="https://github.com/michael-orzel" target='_blank' 
+            className="px-2 py-1 rounded-full flex flex-row justify-center items-center hover:bg-gray-900 hover:text-white"
+          >
+            <img 
+              src='./img/github.png' 
+              alt='Github'
+              className='w-12'
+            />
           </a>
         </li>
         <li className='inline-flex px-0'>
-          <a href="#contact" className="px-4 py-1 rounded flex flex-row justify-center items-center hover:bg-gray-700 hover:text-white">
-            <MailIcon className='w-10'/>
+          <a href="https://www.linkedin.com/in/michael-d-orzel/" target='_blank' 
+            className="px-2 py-1 rounded-full flex flex-row justify-center items-center hover:bg-gray-900 hover:text-white"
+          >
+            <img 
+              src='./img/linkedin.png' 
+              alt='Linkedin'
+              className='w-12'
+            />
           </a>
         </li>
       </ul>
       <span className='text-sm text-gray-500'>&copy; 2022 Michael Orzel</span>
-
-      {/* <ul className="py-2 flex flex-row justify-center items-center">
-        <li className="px-3"><a href="#about">About</a></li>
-        <li className="px-3"><a href="#projects">Projects</a></li>
-        <li className="px-3"><a href="#contact">Contact</a></li>
-      </ul>
-      <ul className="py-2 flex flex-row justify-center items-center">
-        <li className="px-3"><a>Github</a></li>
-        <li className="px-3"><a>Linkedin</a></li>
-      </ul>
-      <div className="flex flex-col justify-center items-center">
-      <p className="py-1">Resume Download:</p>
-      <a href="#skills" className="py-1">
-        <DocumentDownloadIcon className="w-10 inline-block mb-4 hover:text-indigo-500 focus:text-indigo-600" />
-      </a>
-      </div> */}
     </footer>
   );
 }
