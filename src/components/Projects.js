@@ -6,8 +6,8 @@ import { CodeIcon } from '@heroicons/react/solid'
 export default function Projects() {
   return (
     <section id="projects" className="bg-gray-900 text-gray-400 body-font">
-      <div className='container mx-auto flex flex-col justify-center items-center px-10 py-14 2xl:px-20'>
-        <CodeIcon className="mx-auto w-10 mb-4" />
+      <div className='container mx-auto flex flex-col justify-center items-center px-10 py-14 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20'>
+        <CodeIcon className="inline-block w-10 mb-4" />
         <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl">
           Apps I've Built
         </h1>
