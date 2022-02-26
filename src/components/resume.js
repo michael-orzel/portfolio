@@ -11,27 +11,30 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Order Book Crypto Exchange",
-    subtitle: "Solidity | Truffle | React | Redux | Infura | Surge | Bootstrap",
+    title: "Decentralized Crypto Exchange",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An order book model cryptocurrency exchange Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    technologies: "Solidity | Truffle | React | Redux | Bootstrap | Infura | Surge",
     image: "./img/user-login.png",
     link: "https://shovel-token.surge.sh/",
+    code: "https://github.com/michael-orzel/token-exchange",
   },
   {
     title: "User Login System",
-    subtitle: "React Hooks | Context API | Firebase | Material UI",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    technologies: "React | Context API | Material UI | Firebase Auth | Firestore",
     image: "./img/user-login.png",
     link: "https://fir-login-4ab71.web.app/signin",
+    code: "https://github.com/michael-orzel/firebase-login-system",
   },
   {
     title: "Note Taking App",
-    subtitle: "React | Firebase | Material UI",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    technologies: "React | Context API | Material UI | Firebase Auth | Firestore",
     image: "./img/note-app.png",
     link: "https://evernote-clone-66195.web.app/login",
+    code: "https://github.com/michael-orzel/evernote-clone",
   },
 ];
