@@ -28,18 +28,18 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className='container mx-auto flex flex-col justify-center items-center px-10 py-14 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20'>
+      <div className='container mx-auto flex flex-col justify-center items-center px-12 py-14 pb-24 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20'>
         <MailIcon className="inline-block w-10 mb-4" />
         <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl">
-          Contact
+          04. Get In Touch
         </h1>
         <form onSubmit={(e) => handleFormSubmit(e)}
           netlify="true"
           name="contact"
           className="flex flex-col justify-center align-center w-full sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
-          <h2 className="text-white text-3xl title-font font-medium mb-1 sm:text-4xl">
-            Hire Me
-          </h2>
+          {/* <h2 className="text-white text-3xl title-font font-medium mb-1 sm:text-4xl">
+            Get In Touch
+          </h2> */}
           <p className="leading-relaxed mb-5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?

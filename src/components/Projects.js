@@ -6,10 +6,10 @@ import { CodeIcon } from '@heroicons/react/solid'
 export default function Projects() {
   return (
     <section id="projects" className="bg-gray-900 text-gray-400 body-font">
-      <div className='container mx-auto flex flex-col justify-center items-center px-10 py-14 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20'>
+      <div className='container mx-auto flex flex-col justify-center items-center px-12 py-14 pb-24 sm:px-14 md:px-20 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20'>
         <CodeIcon className="inline-block w-10 mb-4" />
         <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl">
-          Apps I've Built
+          03. Some Things I've Built
         </h1>
         <p className="mx-auto text-center text-base leading-relaxed pb-6 lg:w-2/3">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
