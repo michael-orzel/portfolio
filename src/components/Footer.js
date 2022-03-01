@@ -6,7 +6,7 @@ export default function Footer() {
       <ul className="py-2 flex flex-row justify-center items-center">
         <li className='inline-flex px-0'>
           <a href="https://github.com/michael-orzel" target='_blank' 
-            className="px-2 py-1 rounded-full flex flex-row justify-center items-center hover:bg-gray-700 hover:text-white"
+            className="px-2 py-1 rounded-full flex flex-row justify-center items-center transition duration-300 ease-in-out hover:bg-gray-700 hover:text-white"
           >
             <img 
               src='./img/github.png' 
@@ -17,7 +17,7 @@ export default function Footer() {
         </li>
         <li className='inline-flex px-0'>
           <a href="https://www.linkedin.com/in/michael-d-orzel/" target='_blank' 
-            className="px-2 py-1 rounded-full flex flex-row justify-center items-center hover:bg-gray-700 hover:text-white"
+            className="px-2 py-1 rounded-full flex flex-row justify-center items-center transition duration-300 ease-in-out hover:bg-gray-700 hover:text-white"
           >
             <img 
               src='./img/linkedin.png' 

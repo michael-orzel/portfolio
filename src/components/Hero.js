@@ -21,12 +21,12 @@ export default function Hero() {
         <div className='flex flex-row justify-center items-center pt-4'>
           <a
             href='#contact'
-            className='bg-green-600 text-white text-lg px-6 py-2 border-0 rounded hover:bg-green-700 focus:outline-none active:bg-green-500'>
+            className='transition duration-300 ease-in-out bg-green-600 text-white text-lg px-6 py-2 border-0 rounded hover:bg-green-700 focus:outline-none active:bg-green-500'>
             Work With Me
           </a>
           <a
             href='#projects'
-            className='bg-gray-800 text-gray-300 text-lg px-6 py-2 ml-4 border-0 rounded xl:ml-6 hover:bg-gray-700 hover:text-white focus:outline-none active:bg-gray-800'>
+            className='transition duration-300 ease-in-out bg-gray-800 text-gray-300 text-lg px-6 py-2 ml-4 border-0 rounded xl:ml-6 hover:bg-gray-700 hover:text-white focus:outline-none active:bg-gray-800'>
             See My Past Work
           </a>
         </div>

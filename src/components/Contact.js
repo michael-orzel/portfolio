@@ -49,7 +49,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="bg-gray-800 text-gray-100 text-base w-full px-3 py-1 border border-gray-700 rounded outline-none focus:border-green-500 focus:ring-2 focus:ring-green-900 leading-8 transition-colors duration-200 ease-in-out" />
+              className="bg-gray-800 text-gray-100 text-base w-full px-3 py-1 border border-gray-700 rounded outline-none transition duration-300 ease-in-out focus:border-green-500 focus:ring-2 focus:ring-green-900 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <div className="relative pb-4 lg:pb-5 2xl:pb-6">
             <label htmlFor="email" className="text-gray-400 text-sm leading-7">
@@ -59,7 +59,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="bg-gray-800 text-gray-100 text-base w-full px-3 py-1 border border-gray-700 rounded outline-none focus:border-green-500 focus:ring-2 focus:ring-green-900 leading-8 transition-colors duration-200 ease-in-out" />
+              className="bg-gray-800 text-gray-100 text-base w-full px-3 py-1 border border-gray-700 rounded outline-none transition duration-300 ease-in-out focus:border-green-500 focus:ring-2 focus:ring-green-900 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <div className="relative pb-4 lg:pb-5 2xl:pb-6">
             <label htmlFor="message" className="text-gray-400 text-sm leading-7">
@@ -68,11 +68,11 @@ export default function Contact() {
             <textarea onChange={(e) => setFormMessage(e.target.value)}
               id="message"
               name="message"
-              className="bg-gray-800 text-gray-100 text-base w-full px-3 py-1 border border-gray-700 rounded outline-none focus:border-green-500 focus:ring-2 focus:ring-green-900 leading-8 transition-colors duration-200 ease-in-out" />
+              className="bg-gray-800 text-gray-100 text-base w-full px-3 py-1 border border-gray-700 rounded outline-none transition duration-300 ease-in-out focus:border-green-500 focus:ring-2 focus:ring-green-900 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <button
             type="submit"
-            className="bg-green-600 text-white text-lg py-2 px-6 border-0 rounded hover:bg-green-700 focus:outline-none active:bg-green-500">
+            className="bg-green-600 text-white text-lg py-2 px-6 border-0 rounded transition duration-300 ease-in-out hover:bg-green-700 focus:outline-none active:bg-green-500">
             Submit
           </button>
         </form>
