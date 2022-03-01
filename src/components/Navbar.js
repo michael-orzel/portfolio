@@ -71,8 +71,8 @@ export default function Navbar() {
 
       <nav
         className={navigation
-          ? 'fixed z-50 top-0 left-0 bg-gray-900 w-80 h-screen flex flex-col justify-center items-center'
-          : 'hidden'}
+          ? 'fixed z-50 top-0 left-0 transform translate-x-0 transition-transform ease-in-out delay-150 bg-gray-900 w-80 h-screen flex flex-col justify-center items-center'
+          : 'hidden transform -translate-x-6 transition-transform ease-in-out delay-150'}
       >
         <ul className='w-full h-full flex flex-col justify-center items-center'>
           { navData.map((section) => {

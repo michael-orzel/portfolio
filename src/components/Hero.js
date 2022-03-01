@@ -12,10 +12,10 @@ export default function Hero() {
         style={heroStyles}
       >
         <div className='flex flex-row justify-center items-center w-3/4 lg:1/2'>
-          <h1 className='title-font text-white font-medium text-3xl mb-6 md:text-4xl'>
-            <span className='inline-flex text-gray-400 text-sm pb-3'>Hi, my name is</span>
-            <br /><span className='inline-flex text-white py-1 lg:py-2'>Michael Orzel.</span>
-            <br /><span className='inline-flex text-gray-400 py-1 lg:py-2'>I build things for the blockchain.</span>
+          <h1 className='title-font text-white font-medium text-3xl mb-4'>
+            <span className='inline-flex text-gray-400 text-2xl pb-1 xl:text-3xl'>Hi, my name is</span>
+            <br /><span className='inline-flex text-white text-4xl py-1 xl:text-6xl xl:py-2'>Michael Orzel.</span>
+            <br /><span className='inline-flex text-gray-400 text-3xl py-1 xl:text-4xl xl:py-2'>I build things for the blockchain.</span>
           </h1>
         </div>
         <div className='flex flex-row justify-center items-center pt-4'>
@@ -26,7 +26,7 @@ export default function Hero() {
           </a>
           <a
             href='#projects'
-            className='bg-gray-800 text-gray-300 text-lg px-6 py-2 ml-4 border-0 rounded lg:ml-6 hover:bg-gray-700 hover:text-white focus:outline-none active:bg-gray-800'>
+            className='bg-gray-800 text-gray-300 text-lg px-6 py-2 ml-4 border-0 rounded xl:ml-6 hover:bg-gray-700 hover:text-white focus:outline-none active:bg-gray-800'>
             See My Past Work
           </a>
         </div>

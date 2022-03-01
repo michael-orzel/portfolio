@@ -29,17 +29,14 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className='container mx-auto flex flex-col justify-center items-center px-12 py-14 pb-24 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20 sm:px-14 md:px-20 lg:px-20 xl:px-0 2xl:px-20'>
-        <MailIcon className="inline-block w-10 mb-4" />
-        <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl sm:mb-6 xl:mb-8">
+        <MailIcon className="inline-block w-10 pb-4"/>
+        <h1 className="text-white text-3xl title-font font-medium pb-4 sm:text-4xl sm:pb-6 xl:pb-8">
           Get In Touch
         </h1>
         <form onSubmit={(e) => handleFormSubmit(e)}
           netlify="true"
           name="contact"
-          className="flex flex-col justify-center align-center w-full max-w-md lg:max-w-lg sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12 lg:pb-5 xl:pb-5">
-          {/* <h2 className="text-white text-3xl title-font font-medium mb-1 sm:text-4xl">
-            Get In Touch
-          </h2> */}
+          className="flex flex-col justify-center align-center w-full max-w-md lg:max-w-lg sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12 lg:pb-5 xl:pt-5 2xl:pt-6">
           <p className="text-justify leading-relaxed pb-5 lg:pb-6 xl:pb-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?

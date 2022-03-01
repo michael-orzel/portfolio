@@ -7,16 +7,16 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-gray-900 text-gray-400 body-font">
       <div className='container mx-auto flex flex-col justify-center items-center px-12 py-14 pb-24 sm:px-14 md:px-20 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20'>
-        <CodeIcon className="inline-block w-10 mb-4" />
-        <h1 className="text-white text-3xl title-font font-medium mb-4 sm:text-4xl sm:mb-6 xl:mb-8">
+        <CodeIcon className="inline-block w-10 pb-4"/>
+        <h1 className="text-white text-3xl title-font font-medium pb-4 sm:text-4xl sm:pb-6 xl:pb-8">
           Some Things I've Built
         </h1>
-        <p className="mx-auto text-justify text-base leading-relaxed pb-6 lg:max-w-2xl lg:w-2/3">
+        <p className="mx-auto text-justify text-base leading-relaxed pb-6 lg:max-w-2xl lg:w-2/3 max-w-sm sm:max-w-md md:max-w-lg">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
           facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
           fuga dolore.
         </p>
-        <div className='flex flex-col justify-center items-center flex-wrap xl:flex-row xl:w-9/12 2xl:w-8/12 lg:py-5 2xl:pt-6'>
+        <div className='flex flex-col justify-center items-center flex-wrap xl:flex-row xl:w-9/12 2xl:w-8/12 lg:pb-4 xl:pt-5 2xl:pt-6 2xl:pb-5'>
           { projects.map((project) => (
             <a
               key={project.image}
