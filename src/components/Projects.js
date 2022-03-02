@@ -32,13 +32,13 @@ export default function Projects() {
                 />
                 <div className="absolute z-3 top-0 transition duration-300 ease-in-out bg-gray-900 text-justify w-full h-full px-10 py-10 flex flex-col justify-evenly items-center border-4 border-gray-800 opacity-90 hover:opacity-80">
                   <div className='max-w-xs flex flex-col justify-center items-center'>
-                    <h1 className="text-xl title-font font-medium text-white">
+                    <h2 className="text-xl title-font font-medium text-white">
                       {project.title}
-                    </h1>
-                    <p className="text-md leading-relaxed py-5">{project.description}</p>
-                    <h2 className="text-sm title-font font-medium text-green-400 tracking-widest">
-                      {project.technologies}
                     </h2>
+                    <p className="text-md leading-relaxed py-5">{project.description}</p>
+                    <h3 className="text-sm title-font font-medium text-green-400 tracking-widest">
+                      {project.technologies}
+                    </h3>
                   </div>
                   <a
                     href={project.code} target='_blank'

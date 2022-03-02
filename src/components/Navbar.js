@@ -66,8 +66,8 @@ export default function Navbar() {
 
       <div 
         className={navigation 
-          ? 'fixed z-40 w-full h-screen bg-gray-700 opacity-70 transition duration-500 ease-in-out transform translate-x-0'
-          : 'fixed z-40 w-full h-screen bg-gray-700 opacity-0 transition duration-500 ease-in-out transform translate-x-full'} 
+          ? 'fixed z-40 w-full h-screen bg-gray-700 opacity-70 transition duration-150 ease-in-out transform scale-100'
+          : 'fixed z-40 w-full h-screen bg-gray-700 opacity-0 transition duration-150 ease-in-out transform scale-0'} 
         onClick={hideNavigation}
       />
 
