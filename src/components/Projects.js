@@ -28,9 +28,10 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt="gallery"
-                  className="relative z-2 w-full h-full py-0 rounded-md object-cover object-center"
+                  style={{ minHeight: "33rem" }}
+                  className="relative z-10 w-full h-full py-0 rounded-md object-cover object-center"
                 />
-                <div className="absolute z-3 top-0 transition duration-300 ease-in-out bg-gray-900 text-justify w-full h-full px-10 py-10 flex flex-col justify-evenly items-center border-4 border-gray-800 opacity-90 hover:opacity-80">
+                <div className="absolute z-20 top-0 transition duration-300 ease-in-out bg-gray-900 text-justify w-full h-full px-10 py-10 flex flex-col justify-evenly items-center border-4 border-gray-800 opacity-80 hover:opacity-70">
                   <div className='max-w-xs flex flex-col justify-center items-center'>
                     <h2 className="text-xl title-font font-medium text-white">
                       {project.title}

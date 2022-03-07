@@ -30,16 +30,16 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className='container mx-auto flex flex-col justify-center items-center px-12 py-14 pb-24 md:py-16 lg:py-20 xl:py-24 2xl:py-28 2xl:px-20 sm:px-14 md:px-20 lg:px-20 xl:px-0 2xl:px-20'>
         <MailIcon className="inline-block w-10 pb-4"/>
-        <h1 className="text-white text-3xl title-font font-medium pb-4 sm:text-4xl sm:pb-6 xl:pb-8">
+        <h1 className="text-white text-3xl title-font font-medium pb-4 sm:text-4xl xl:pb-6">
           Get In Touch
         </h1>
         <form onSubmit={(e) => handleFormSubmit(e)}
           netlify="true"
           name="contact"
-          className="flex flex-col justify-center align-center w-full max-w-md lg:max-w-lg sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12 lg:pb-5 xl:pt-5 2xl:pt-6">
-          <p className="text-justify leading-relaxed pb-5 lg:pb-6 xl:pb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          className="flex flex-col justify-center align-center w-full max-w-md lg:max-w-lg sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
+          <p className="mx-auto text-center leading-relaxed pb-5 lg:pb-4 xl:pb-6">
+            You can also message me direclty at the following:
+            <br/> <span className='text-blue-300 opacity-80'>hello@michaelorzel.com</span>
           </p>
           <div className="relative pb-4 lg:pb-5 2xl:pb-6">
             <label htmlFor="name" className="text-gray-400 text-sm leading-7">
