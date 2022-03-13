@@ -12,9 +12,8 @@ export default function Projects() {
           Some Things I've Built
         </h1>
         <p className="mx-auto text-justify text-base leading-relaxed pb-6 lg:max-w-2xl lg:w-2/3 max-w-sm sm:max-w-md md:max-w-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-          facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-          fuga dolore.
+          Click on a project's image to see it live. 
+          You can view it's source code by clicking the 'View Code' button.
         </p>
         <div className='flex flex-col justify-center items-center flex-wrap xl:flex-row xl:w-9/12 2xl:w-8/12 lg:pb-4 xl:pt-5 2xl:pt-6 2xl:pb-5'>
           { projects.map((project) => (

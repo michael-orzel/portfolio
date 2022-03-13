@@ -12,10 +12,9 @@ export default function Skills() {
           <h1 className="text-3xl text-white font-medium title-font pb-4 sm:text-4xl md:pb-6 xl:pb-8">
             What I Work With
           </h1>
-          <p className="text-base leading-relaxed -mb-2 lg:w-2/3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+          <p className="mx-auto text-base text-justify leading-relaxed -mb-2 ">
+            Some of the technologies and skills that I use 
+            to take ideas and turn them into websites.
           </p>
         </div>
         <div className="flex flex-wrap sm:mb-2 lg:w-4/5 2xl:max-w-4xl lg:pb-5 xl:pt-5 2xl:pt-6">
