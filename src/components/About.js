@@ -13,20 +13,15 @@ export default function About() {
         <div className="flex flex-col justify-center items-center lg:flex-row xl:mx-20 lg:py-6 xl:pt-5">
           <p className="mx-auto text-justify text-base leading-relaxed lg:w-1/2 xl:w-5/12">
             Michael has been interested in web development since taking a
-            course at the University of Michigan Dearborn.
-            He fell in love with it completely when he first saw React
-            and how it changed the way developers think about and create web apps. <br /> <br />
-            His main focus right now is making web apps for the blockchain.<br /> <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est. <br /> <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            college course at U of M Dearborn.
+            Post graduation, he fell in love with React
+            and how it changes the way developers think about creating web apps.
+            <br /> <br />
+            His current focus is making web apps for the blockchain.
+            <br /> <br />
+            Michael has a Bachelor of Science from the University of Michigan Dearbron 
+            and freeCodeCamp Certificaitons for Responsive Web Design and 
+            JavaScript Algorithms and Data Structures
           </p>
           <div className='mx-auto pt-6 sm:pt-8 lg:pt-0'>
             <img

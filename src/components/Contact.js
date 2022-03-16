@@ -38,9 +38,11 @@ export default function Contact() {
           name="contact"
           className="flex flex-col justify-center align-center w-full max-w-md lg:max-w-lg sm:w-11/12 md:w-9/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
           <p className="mx-auto text-center leading-relaxed pb-5 lg:pb-4 xl:pb-6">
-            I'm currently looking for new remote opportunities. 
-            You can react out to me with the form below or contact me direclty by email:
-            <br/> <span className='text-blue-300 font-bold opacity-80'>hello@michaelorzel.com</span>
+            <div className='text-justify'>
+              I'm currently looking for new remote opportunities. 
+              Use the form below or contact me direclty with:
+            </div>
+            <br/> <span className='text-lg text-blue-300 font-bold opacity-80 lg:text-xl'>hello@michaelorzel.com</span>
           </p>
           <div className="relative pb-4 lg:pb-5 2xl:pb-6">
             <label htmlFor="name" className="text-gray-400 text-sm leading-7">
