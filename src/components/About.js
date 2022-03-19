@@ -13,15 +13,14 @@ export default function About() {
         <div className="flex flex-col justify-center items-center lg:flex-row xl:mx-20 lg:py-6 xl:pt-5">
           <p className="mx-auto text-justify text-base leading-relaxed lg:w-1/2 xl:w-5/12">
             Michael has been interested in web development since taking a
-            college course at U of M Dearborn.
-            Post graduation, he fell in love with React
+            college course at the <b className='text-green-400 opacity-80'>University of Michigan Dearborn. </b>
+            He later fell in love with React
             and how it changes the way developers think about creating web apps.
+            His current focus is making Web3 apps for the blockchain.
             <br /> <br />
-            His current focus is making web apps for the blockchain.
-            <br /> <br />
-            Michael has a Bachelor of Science from the University of Michigan Dearbron 
-            and freeCodeCamp Certificaitons for Responsive Web Design and 
-            JavaScript Algorithms and Data Structures
+            Michael has a <b className='text-green-400 opacity-80'>Bachelor's in Computer and Information Science</b> (CIS)
+            and freeCodeCamp Certificaitons for <b className='text-green-400 opacity-80'>Responsive Web Design</b> and
+            <b className='text-green-400 opacity-80'> JavaScript Algorithms and Data Structures</b>.
           </p>
           <div className='mx-auto pt-6 sm:pt-8 lg:pt-0'>
             <img
